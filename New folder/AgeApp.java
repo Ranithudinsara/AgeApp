@@ -11,7 +11,6 @@ public class AgeApp {
             System.out.println("Anniversary Party!!");
         }
 
-        
         if (age == 100) {
             System.out.println("Congratulations on a century!");
             System.out.println("Congratulations on a century!");
