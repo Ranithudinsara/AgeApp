@@ -24,19 +24,19 @@ public class AgeApp {
 
         
         
+       if (age >= 40 && age <= 50) {
+            System.out.println("Happy mid-life!");
+        }
+
         if (age >= 65) {
             System.out.println("You are retired.");
-        } 
-        else if (age >= 18) {
+        } else if (age >= 18) {
             System.out.println("You are an adult.");
-        } 
-        else if (age >= 15) {
+        } else if (age >= 15) {
             System.out.println("You can drive a moped.");
-        } 
-        else if (age > 0) {
+        } else if (age > 0) {
             System.out.println("You are underage.");
-        } 
-        else {
+        } else {
             System.out.println("Invalid age.");
         }
     }
