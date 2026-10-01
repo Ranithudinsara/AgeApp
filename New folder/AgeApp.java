@@ -1,3 +1,5 @@
+// AgeApp.java - Handles age checks and conditional prints
+
 public class AgeApp {
     public static void main(String[] args) {
         int age = 5;
